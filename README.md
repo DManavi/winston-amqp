@@ -7,7 +7,7 @@ Installation
 ------------
 
 	npm install winston
-	npm install amqp-winston
+	npm install bp-amqp-winston
 	
 Usage
 -----
@@ -18,7 +18,7 @@ Usage
 	// Requiring `winston-amqp` will expose 
 	// `winston.transports.AMQP`
 	//
-	require('amqp-winston');
+	require('bp-amqp-winston');
 	
 	winston.add(winston.transports.AMQP, options);
 	
