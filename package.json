@@ -1,5 +1,5 @@
 {
-  "name": "amqp-winston",
+  "name": "bp-amqp-winston",
   "version": "1.0.7",
   "description": "Winston logging transport for AMQP",
   "main": "index.js",
