@@ -107,6 +107,9 @@ var AMQP = module.exports = winston.transports.AMQP = function (options) {
 					callback && callback(err?new Error():null,!err) ;
 				});
 			};
+			
+			self.emit("ready");
+			
 			// Now we're connected, play back any buffered log events
 			if (buffer) {
 				for (var i=0; i<buffer.length; i++) {
